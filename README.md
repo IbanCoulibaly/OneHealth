@@ -12,6 +12,10 @@ A React Native (Expo) app for tracking meals, workouts, and daily health metrics
 | --- | --- | --- |
 | ![Goals screen](assets/screenshots/goals.png) | ![Chat screen](assets/screenshots/chat.png) | ![Onboarding screen](assets/screenshots/onboarding.png) |
 
+| Meal logging |
+| --- |
+| ![Meal confirmation screen showing a photographed steak and eggs breakfast with an AI-estimated 870 kcal and macro breakdown](assets/screenshots/meal-log.jpg) |
+
 Captured on an iPhone 17 Pro simulator (iOS), showing the app's native "Liquid Glass" translucent cards and adaptive light/dark teal accent.
 
 ## Features

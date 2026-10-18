@@ -169,7 +169,7 @@ export default function TabBar({
                   <Animated.View style={[styles.iconLayer, { opacity: Animated.subtract(1, iconProgress) }]}>
                     <Ionicons name={tab.iconOutline} size={24} color={Colors.textSecondary} />
                   </Animated.View>
-                  <Animated.View style={[styles.iconLayer, { opacity: iconProgress }]}>
+                  <Animated.View style={[styles.iconLayer, styles.iconLayerFilled, { opacity: iconProgress }]}>
                     <Ionicons name={tab.icon} size={24} color={Colors.primary} />
                   </Animated.View>
                 </View>
@@ -270,6 +270,12 @@ const styles = StyleSheet.create({
     ...StyleSheet.absoluteFillObject,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  iconLayerFilled: {
+    // Ionicons' filled glyphs sit lower in their em-box than the matching
+    // outline glyphs, so the crossfaded "active" icon visibly sinks without
+    // this counter offset (compensated for the stroke-weight glyph set).
+    transform: [{ translateY: -14 }],
   },
   cursorGrabArea: {
     position: 'absolute',
