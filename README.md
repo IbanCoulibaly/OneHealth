@@ -2,6 +2,16 @@
 
 A React Native (Expo) app for tracking meals, workouts, and daily health metrics, with an AI coach ("Eugene") for food logging and chat-based guidance.
 
+## Screenshots
+
+| Home | Workouts | Progress |
+| --- | --- | --- |
+| ![Home screen](assets/screenshots/home.jpg) | ![Workouts screen](assets/screenshots/workouts.jpg) | ![Progress screen](assets/screenshots/progress.jpg) |
+
+| Goals | Eugene (AI coach) | Onboarding |
+| --- | --- | --- |
+| ![Goals screen](assets/screenshots/goals.jpg) | ![Chat screen](assets/screenshots/chat.jpg) | ![Onboarding screen](assets/screenshots/onboarding.jpg) |
+
 ## Features
 
 - Meal logging with AI-assisted food analysis from photos or text descriptions
