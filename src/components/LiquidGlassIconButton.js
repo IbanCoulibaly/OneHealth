@@ -50,7 +50,7 @@ export default function LiquidGlassIconButton({
           pointerEvents="none"
           intensity={76}
           tint={isDark ? 'systemThinMaterialDark' : 'systemThinMaterialLight'}
-          experimentalBlurMethod="dimezisBlurView"
+          blurMethod="dimezisBlurView"
           style={[styles.glass, { borderRadius: size / 2 }]}
         >
           <Feather name={icon} size={iconSize} color={color} />

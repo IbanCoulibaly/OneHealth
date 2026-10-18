@@ -13,7 +13,7 @@ export default function GlassCard({ children, style, contentStyle, intensity = 3
       <BlurView
         intensity={intensity}
         tint={isDark ? 'systemThinMaterialDark' : 'systemThinMaterialLight'}
-        experimentalBlurMethod="dimezisBlurView"
+        blurMethod="dimezisBlurView"
         style={[styles.blur, !noPadding && styles.padding, contentStyle]}
       >
         {children}

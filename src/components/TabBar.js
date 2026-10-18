@@ -125,7 +125,7 @@ export default function TabBar({
         <BlurView
           intensity={78}
           tint={isDark ? 'systemThinMaterialDark' : 'systemThinMaterialLight'}
-          experimentalBlurMethod="dimezisBlurView"
+          blurMethod="dimezisBlurView"
           style={styles.tabBar}
           onLayout={(event) => setTabBarWidth(event.nativeEvent.layout.width)}
         >

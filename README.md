@@ -6,11 +6,13 @@ A React Native (Expo) app for tracking meals, workouts, and daily health metrics
 
 | Home | Workouts | Progress |
 | --- | --- | --- |
-| ![Home screen](assets/screenshots/home.jpg) | ![Workouts screen](assets/screenshots/workouts.jpg) | ![Progress screen](assets/screenshots/progress.jpg) |
+| ![Home screen](assets/screenshots/home.png) | ![Workouts screen](assets/screenshots/workouts.png) | ![Progress screen](assets/screenshots/progress.png) |
 
 | Goals | Eugene (AI coach) | Onboarding |
 | --- | --- | --- |
-| ![Goals screen](assets/screenshots/goals.jpg) | ![Chat screen](assets/screenshots/chat.jpg) | ![Onboarding screen](assets/screenshots/onboarding.jpg) |
+| ![Goals screen](assets/screenshots/goals.png) | ![Chat screen](assets/screenshots/chat.png) | ![Onboarding screen](assets/screenshots/onboarding.png) |
+
+Captured on an iPhone 17 Pro simulator (iOS), showing the app's native "Liquid Glass" translucent cards and adaptive light/dark teal accent.
 
 ## Features
 
